@@ -16,10 +16,10 @@ This project is an implementation of a hiking app built with SwiftUI
 ## Art
 
 <p>
-<img src="screenshot/art_1.mp4" width="250"  height="540"/>
+<img src="https://github.com/iamEtornam/Hike/blob/main/screenshot/art_1.mp4" width="250"  height="540"/>
 </p>
 
 <br>
 <p>
-<img src="screenshot/art_2.png" width="250"  height="540"/>
+<img src="https://github.com/iamEtornam/Hike/blob/main/screenshot/art_2.png" width="250"  height="540"/>
 </p>
