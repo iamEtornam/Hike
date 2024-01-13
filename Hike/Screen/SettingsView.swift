@@ -50,6 +50,33 @@ struct SettingsView: View {
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
                 
             }.listRowSeparator(.hidden)
+            
+            
+            Section(
+            header: Text("ABOUT THE APP"),
+            footer: HStack{
+                Spacer()
+                Text("Copyright © All right reserved.")
+                Spacer()
+            }.padding(.vertical,8)
+            ) {
+                CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "HIKE", rowTintColor: .blue)
+                
+                CustomListRowView(rowLabel: "Compartability", rowIcon: "info.circle", rowContent: "iOS, iPadOS", rowTintColor: .red)
+                
+                CustomListRowView(rowLabel: "Technology", rowIcon: "swift", rowContent: "Swift", rowTintColor: .orange)
+                
+                CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
+                
+                
+                CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Sunu Bright", rowTintColor: .mint)
+                
+                
+                CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Sunu Bright", rowTintColor: .pink)
+                
+                
+                CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowTintColor: .indigo, rowLinkLabel: "Etornam's Website",rowLinkDestination: "https://etornam.dev")
+            }
         }
        
     }

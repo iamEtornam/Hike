@@ -19,6 +19,7 @@
 		050B4DAC2B52914800F70AD7 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B4DAB2B52914800F70AD7 /* CustomCircleView.swift */; };
 		050B4DAE2B52930400F70AD7 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B4DAD2B52930400F70AD7 /* MotionAnimationView.swift */; };
 		058CB7BD2B5299C70065F5C6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058CB7BC2B5299C70065F5C6 /* SettingsView.swift */; };
+		058CB7BF2B52A6470065F5C6 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058CB7BE2B52A6470065F5C6 /* CustomListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		050B4DAB2B52914800F70AD7 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		050B4DAD2B52930400F70AD7 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		058CB7BC2B5299C70065F5C6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		058CB7BE2B52A6470065F5C6 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				0504F87A2B51B17E00269B61 /* CustomButtonView.swift */,
 				050B4DAB2B52914800F70AD7 /* CustomCircleView.swift */,
 				050B4DAD2B52930400F70AD7 /* MotionAnimationView.swift */,
+				058CB7BE2B52A6470065F5C6 /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				0504F8672B51A37900269B61 /* ContentView.swift in Sources */,
 				050B4DAC2B52914800F70AD7 /* CustomCircleView.swift in Sources */,
+				058CB7BF2B52A6470065F5C6 /* CustomListRowView.swift in Sources */,
 				0504F8732B51A57D00269B61 /* CardView.swift in Sources */,
 				0504F8652B51A37900269B61 /* HikeApp.swift in Sources */,
 				0504F87B2B51B17E00269B61 /* CustomButtonView.swift in Sources */,
