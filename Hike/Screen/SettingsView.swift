@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct SettingsView: View {
+    private let alternateAppIcons:[String] = [
+        "AppIcon-Backpack",
+        "AppIcon-Camera",
+        "AppIcon-Campfire",
+        "AppIcon-MagnifyingGlass",
+        "AppIcon-Map",
+        "AppIcon-Mushroom"
+    ]
+    
     var body: some View {
         List {
+            
             Section {
                 HStack{
                     Spacer()
@@ -50,6 +60,40 @@ struct SettingsView: View {
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
                 
             }.listRowSeparator(.hidden)
+            
+            Section(
+                header: Text("Alternate Icons")
+            ) {
+                ScrollView(.horizontal,showsIndicators:false){
+                    HStack(spacing: 12) {
+                        ForEach(alternateAppIcons.indices, id: \.self) { item in
+                            Button {
+                                UIApplication.shared.setAlternateIconName(alternateAppIcons[item]){
+                                    error in
+                                    if error != nil {
+                                        print("failed")
+                                    }else{
+                                        print("sucess")
+                                    }
+                                }
+                            }label: {
+                                Image("\(alternateAppIcons[item])-Preview")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 80,height: 80)
+                                    .cornerRadius(16)
+                        }.buttonStyle(.borderless)
+                        }
+                    }
+                }.padding(12)
+                
+                Text("Choose your favourite app  icon from the collection above.")
+                    .frame(minWidth: 0,maxWidth: .infinity)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.secondary)
+                    .font(.footnote)
+                    .padding(.bottom, 12)
+            }
             
             
             Section(
