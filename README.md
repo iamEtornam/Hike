@@ -16,10 +16,25 @@ This project is an implementation of a hiking app built with SwiftUI
 ## Art
 
 <p>
-<img src="https://github.com/iamEtornam/Hike/blob/main/screenshots/art_1.webm" width="250"  height="540"/>
+<img src="https://github.com/iamEtornam/Hike/blob/main/screenshots/art_1.png" width="250"  height="440"/>
 </p>
 
 <br>
 <p>
-<img src="https://github.com/iamEtornam/Hike/blob/main/screenshots/art_2.png" width="250"  height="540"/>
+<img src="https://github.com/iamEtornam/Hike/blob/main/screenshots/art_2.png" width="250"  height="440"/>
+</p>
+
+<br>
+<p>
+<img src="https://github.com/iamEtornam/Hike/blob/main/screenshots/art_3.png" width="250"  height="440"/>
+</p>
+
+<br>
+<p>
+<img src="https://github.com/iamEtornam/Hike/blob/main/screenshots/art_4.png" width="250"  height="440"/>
+</p>
+
+<br>
+<p>
+<img src="https://github.com/iamEtornam/Hike/blob/main/screenshots/art_5.png" width="250"  height="440"/>
 </p>
